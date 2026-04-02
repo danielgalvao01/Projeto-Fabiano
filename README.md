@@ -2,7 +2,7 @@ Este projeto é um website de login de usuário desenvolvido em PHP, HTML e SQL,
 O website salva as informações do login em um banco de dados ao efetuar o cadastro com nome,e-mail e uma mensagem.
 Após a conclusão do cadastro, a senha selecionada pelo usuário é criptografada.
 
-═══════════════════════════════════════════════════════════════════════════
+════════════════════════════════════════════════════════════════════════════
 
 Tecnologias Utilizadas:
 
@@ -14,14 +14,14 @@ HTML, CSS — interface do usuário e estilização
 
 XAMPP — servidor local (Apache + MySQL)
 
-═══════════════════════════════════════════════════════════════════════════
+════════════════════════════════════════════════════════════════════════════
 
 Requisitos
 XAMPP instalado (https://www.apachefriends.org/pt_br/index.html)
 
 Utilizar navegador atualizado (seja Google Chrome, Mozilla Firefox, Microsoft Edge, entre outros.)
 
-═══════════════════════════════════════════════════════════════════════════
+════════════════════════════════════════════════════════════════════════════
 
 Extração do Projeto:
 
@@ -70,7 +70,7 @@ Senha do banco: (em branco)
 
 Se necessário, ajuste conforme sua configuração de senha local.
 
-═══════════════════════════════════════════════════════════════════════════
+════════════════════════════════════════════════════════════════════════════
 
 Como Executar:
 
@@ -78,7 +78,7 @@ Abra o seu navegador e acesse:
 
 http://localhost/Projeto-Login/
 
-═══════════════════════════════════════════════════════════════════════════
+════════════════════════════════════════════════════════════════════════════
 
 Solução de Problemas Comuns:
 
