@@ -2,6 +2,8 @@ Este projeto é um website de login de usuário desenvolvido em PHP, HTML e SQL,
 O website salva as informações do login em um banco de dados ao efetuar o cadastro com nome,e-mail e uma mensagem.
 Após a conclusão do cadastro, a senha selecionada pelo usuário é criptografada.
 
+Foi utilizado no projeto o formato PDO (PHP Data Objects) para realizar a conexão com o banco de dados MySQL. O PDO permite uma comunicação segura e eficiente com o banco, além de oferecer suporte a múltiplos sistemas de gerenciamento de banco de dados.
+
 ═══════════════════════════════════════════════════════════════════════════
 
 Tecnologias Utilizadas:
@@ -27,6 +29,8 @@ Extração do Projeto:
 
 Extraia a pasta Projeto-Login do arquivo .zip
 
+Ao extrair, irá conter os arquivos: "usuarios.php" "conexao.php" "index.php" "projeto.sql" "usuarios.css".  
+
 Mova a pasta para o diretório do servidor local do XAMPP:
 
 C:\xampp\htdocs\
@@ -41,28 +45,9 @@ http://localhost/phpmyadmin/
 
 Crie um novo banco de dados chamado: "projeto"
 
-Clique em Importar e selecione o arquivo "banco.sql" que está dentro da pasta "Projeto-Login".
+Clique em Importar e selecione o arquivo "projeto.sql" que está dentro da pasta "Projeto-Login".
 
 Confirme a importação.
-
-Importação do Dump: (para restaurar dados completos)
-
-Inicie o XAMPP da mesma forma
-
-Acesse no navegador:
-http://localhost/phpmyadmin
-
-Crie um novo banco de dados
-
-Clique em "Novo"
-
-Defina o nome de "Projeto-Login"
-
-Vá em "Importar"
-
-Entre em "Escolher arquivo" e selecione: "Dump_Projeto.sql"
-
-Clique em "Executar"
 
 Usuário padrão do MySQL no XAMPP: root
 
