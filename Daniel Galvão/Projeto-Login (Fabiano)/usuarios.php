@@ -5,14 +5,14 @@ $acao = $_GET['acao'] ?? 'listar';
 $erro = "";
 $sucesso = "";
 
-// SALVAR
+//salvar
 if ($acao == 'salvar') {
     $nome = trim($_POST['nome']);
     $email = trim($_POST['email']);
     $mensagem = trim($_POST['mensagem']);
     $senhaInput = $_POST['senha'];
 
-    // VALIDAÇÕES
+    //validações
     if (empty($nome) || empty($email) || empty($senhaInput) || empty($mensagem)) {
         $erro = "Preencha todos os campos!";
     } 
@@ -40,7 +40,7 @@ if ($acao == 'salvar') {
     }
 }
 
-// EXCLUIR
+//excluir
 if ($acao == 'excluir') {
     $id = $_GET['id'];
 
@@ -51,7 +51,7 @@ if ($acao == 'excluir') {
     exit;
 }
 
-// EDITAR
+//editar
 if ($acao == 'editar') {
     $id = $_GET['id'];
 
@@ -60,7 +60,7 @@ if ($acao == 'editar') {
     $usuario = $stmt->fetch(PDO::FETCH_ASSOC);
 }
 
-// UPDATE
+//update
 if ($acao == 'update') {
     $id = $_POST['id'];
     $nome = trim($_POST['nome']);
@@ -85,7 +85,7 @@ if ($acao == 'update') {
     }
 }
 
-// LISTAR
+//listar
 $stmt = $conn->query("SELECT * FROM usuarios ORDER BY id DESC");
 $usuarios = $stmt->fetchAll(PDO::FETCH_ASSOC);
 ?>
