@@ -2,7 +2,7 @@
 $host = "localhost";
 $db = "projeto";
 $user = "root";
-$pass = ""; //Sua senha do banco
+$pass = ""; //sua senha própria do banco
 
 try {
     $conn = new PDO("mysql:host=$host;dbname=$db;charset=utf8", $user, $pass);
