@@ -1,8 +1,10 @@
 Este projeto é um website de login de usuário desenvolvido em PHP, HTML e SQL, executado em ambiente local via XAMPP.
 O website salva as informações do login em um banco de dados ao efetuar o cadastro com nome,e-mail e uma mensagem.
 Após a conclusão do cadastro, a senha selecionada pelo usuário é criptografada.
+Os dados de usuários logados podem ser editados e ou excluidos na aba consulta.
 
 Foi utilizado no projeto o formato PDO (PHP Data Objects) para realizar a conexão com o banco de dados MySQL. O PDO permite uma comunicação segura e eficiente com o banco, além de oferecer suporte a múltiplos sistemas de gerenciamento de banco de dados.
+
 
 ═══════════════════════════════════════════════════════════════════════════
 
