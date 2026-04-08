@@ -1,7 +1,7 @@
-Este projeto é um website de login de usuário desenvolvido em PHP, HTML e SQL, executado em ambiente local via XAMPP.
+Este projeto é um website de cadastro de usuário desenvolvido em PHP, HTML e SQL, executado em ambiente local via XAMPP.
 O website salva as informações do login em um banco de dados ao efetuar o cadastro com nome,e-mail e uma mensagem.
 Após a conclusão do cadastro, a senha selecionada pelo usuário é criptografada.
-Os dados de usuários logados podem ser editados e ou excluidos na aba consulta.
+Os dados de usuários que ja foram cadastrados podem ser editados e ou excluidos na aba consulta.
 
 Foi utilizado no projeto o formato PDO (PHP Data Objects) para realizar a conexão com o banco de dados MySQL. O PDO permite uma comunicação segura e eficiente com o banco, além de oferecer suporte a múltiplos sistemas de gerenciamento de banco de dados.
 
@@ -24,6 +24,16 @@ Requisitos
 XAMPP instalado (https://www.apachefriends.org/pt_br/index.html)
 
 Utilizar navegador atualizado (seja Google Chrome, Mozilla Firefox, Microsoft Edge, entre outros.)
+
+═══════════════════════════════════════════════════════════════════════════
+Estrutura dos arquivos:
+
+Projeto-Login/
+├── index.php       → Redireciona para usuarios.php
+├── usuarios.php    → Lógica principal e interface (CRUD)
+├── conexao.php     → Configuração da conexão com o banco
+├── usuarios.css    → Estilização da interface
+└── projeto.sql     → Script de criação do banco de dados
 
 ═══════════════════════════════════════════════════════════════════════════
 
@@ -67,7 +77,7 @@ http://localhost/Projeto-Login/
 
 ═══════════════════════════════════════════════════════════════════════════
 
-Solução de Problemas Comuns:
+Solução de Problemas Possíveis:
 
 Possível Causa & Solução:
 
